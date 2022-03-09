@@ -1,1 +1,1 @@
-# QLDA
+larravel first init
