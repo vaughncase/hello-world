@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+    'main_folder_photos'          => 'Image',
+    'main_folder_files'           => 'File',
+    'add_folder'                  => 'Add folder',
+    'folders'                     => 'Folders',
+    'enter_name_folder'           => 'Enter folder name',
+    'confirm_create_folder'       => 'Confirm create folder',
+    'invalid_name'                => 'Please enter file name',
+    'create_folder_success'       => 'Folder added successfully',
+    'not_found_folder'            => 'Folder not found',
+    'exist_folder_name'           => 'The folder name is already in use',
+    'update_success'              => 'Information updated successfully',
+    'confirm_delete_folder'       => 'Confirm delete folder',
+    'can_not_delete_folder'       => 'Cannot delete this folder, as it contains data',
+    'delete_success'              => 'Folder deleted successfully',
+    'choose_files'                => 'Please drag and drop, or click here to add files to the folder',
+    'upload_success'              => 'File uploaded successfully',
+    'can_not_upload_file'         => 'Cannot save file, please try again',
+    'enter_the_name_of_photo'     => 'Enter photo\'s name here',
+    'not_found_file'              => 'File not found',
+    'delete_file_success'         => 'File deleted successfully',
+    'confirm_delete_file'         => 'Confirm delete file?',
+    'download'                    => 'Download',
+    'chosen'                      => 'Select',
+    'pick_select_to_chosen_file'  => 'Check this box to select file',
+    'pick_select_to_chosen_image' => 'Check this box to select image',
+    'add_file_to_content'         => 'Add file',
+    'please_chosen_files'         => 'Please check the boxes to select files',
+    'add_image_to_content'        => 'Add image',
+];

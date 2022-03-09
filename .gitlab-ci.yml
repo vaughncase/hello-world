@@ -1,0 +1,17 @@
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  variables:
+    ROOT: "/home/gitlab-runner/www"
+  script:
+    - cp -v $ROOT/builds/path-be/"$CI_COMMIT_REF_NAME"_shared/.env .env
+    - cp -v $ROOT/builds/path-be/"$CI_COMMIT_REF_NAME"_shared/config/database.php config/database.php  
+    - /usr/bin/php74 /usr/local/bin/composer install --no-scripts
+  when: always
+  only:
+    - develop
+  tags:
+    - ko_dev1

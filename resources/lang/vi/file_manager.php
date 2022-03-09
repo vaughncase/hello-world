@@ -1,0 +1,32 @@
+<?php
+	return [
+
+		'main_folder_photos'	=> 'Hình ảnh',
+		'main_folder_files'		=> 'Tệp',
+		'add_folder'			=> 'Thêm thư mục',
+		'folders'				=> 'Thư mục',
+		'enter_name_folder'		=> 'Nhập tên thư mục',
+		'confirm_create_folder' => 'Bạn muốn tạo thư mục này ?',
+		'invalid_name'			=> 'Vui lòng nhập tên',
+		'create_folder_success' => 'Thêm thư mục thành công',
+		'not_found_folder'		=> 'Không tìm thấy thư mục này',
+		'exist_folder_name'		=> 'Tên thư mục đã được sử dụng',
+		'update_success'		=> 'Cập nhật thông tin thành công',
+		'confirm_delete_folder' => 'Bạn muốn xóa thư mục này ?',
+		'can_not_delete_folder' => 'Không xóa được thư mục vì bên trong chứa dữ liệu',
+		'delete_success'		=> 'Xóa thư mục thành công',
+		'choose_files'			=> 'Kéo thả hoặc bấm vào đây để thêm tệp vào thư mục',
+		'upload_success'		=> 'Tải lên tệp thành công',
+		'can_not_upload_file'	=> 'Không lưu được tệp, vui lòng thực hiện lại',
+		'enter_the_name_of_photo'	=> 'Nhập tên ảnh tại đây',
+		'not_found_file'			=> 'Không tìm thấy tệp này',
+		'delete_file_success'		=> 'Xóa tệp thành công',
+		'confirm_delete_file'		=> 'Bạn muốn xóa tệp này ?',
+		'download'					=> 'Tải xuống',
+		'chosen'					=> 'Chọn',
+		'pick_select_to_chosen_file'=> 'Tích vào ô trống để chọn tệp',
+		'pick_select_to_chosen_image'=> 'Tích vào ô trống để chọn ảnh',
+		'add_file_to_content'		=> 'Chèn tệp',
+		'add_image_to_content'		=> 'Chèn ảnh',
+		'please_chosen_files'		=> 'Vui lòng tích vào các ô trống để chọn tệp'
+	];
